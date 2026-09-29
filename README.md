@@ -8,13 +8,13 @@ A little moon who keeps you company. One HTML page, no build step, no frameworks
 | --- | --- |
 | `index.html` | Nila herself: the moon, costumes, sounds, weather, breathing, journal and memory |
 | `manifest.webmanifest` | Tells the iPhone her name, icon and to open full screen |
-| `icons/` | Home Screen and browser icons |
+| `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `icon-maskable-512.png` | Home Screen and browser icons |
 
 ## 1. Put Nila on GitHub
 
 1. Go to https://github.com/new and create a repository called `nila`. Public or private both work.
 2. On the new repository page, click **uploading an existing file**.
-3. Drag in `index.html`, `manifest.webmanifest`, `README.md` and the whole `icons` folder.
+3. Select all the files (there are no folders) and upload them together.
 4. Click **Commit changes**.
 
 ## 2. Create a free Cloudflare account and deploy
